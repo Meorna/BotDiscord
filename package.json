@@ -1,0 +1,16 @@
+{
+    "name": "chuck_norris_bot",
+    "version": "1.0.0",
+    "description": "Chuck Norris Discord Bot on Docker",
+    "author": "Romane Sallio <romane.sallio@gmail.com>",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0",
+        "replace-in-file": "^6.1.0"
+    }
+}
